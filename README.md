@@ -29,14 +29,6 @@ This starts a fake water company on your machine, stores a test card in a throwa
 
 A prepaid card is the recommended setup: the most you can ever lose is its balance. On top of that, a policy sets per-bill and monthly limits, an auto-pay list, and refuses to pay the same voucher twice.
 
-## What it never does
-
-- Solve CAPTCHAs or get around bot detection. Those come back to you.
-- Automate national digital ID login or read your SMS codes. Those come back to you.
-- Type a secret on a site the biller's manifest doesn't list. A fake "electricity company" link can't catch it.
-- Show your card or passwords to an AI model, a log or a screenshot.
-- Send anything anywhere except the biller's own site. No telemetry.
-
 ## Adding a biller
 
 A biller is one folder in `billers/`: a `manifest.yaml` (name, pinned domains, the fields it needs) plus a slip reader. Billers on the same payment platform share one adapter in `src/platforms/`. See `billers/demo` and `src/platforms/demo` for the reference.
