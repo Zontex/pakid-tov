@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/header.webp" alt="A government office: a long queue out the door, the clerk asleep on a pile of forms, and at the next window a small computer box stamping PAID on a tall stack of bills" width="88%">
+  <img src=".github/assets/hero.webp" alt="A government office: a long queue out the door, the clerk asleep on a pile of forms, and at the next window a small computer box stamping PAID on a tall stack of bills" width="88%">
 </p>
 
 <p align="center">
