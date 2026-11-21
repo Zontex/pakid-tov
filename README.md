@@ -1,8 +1,8 @@
 # Pakid Tov
 
-**סוף סוף, פקיד טוב.** Finally, a good clerk.
+**Finally, a good clerk.**
 
-Every Israeli bill lives on its own website, behind its own codes: מספר משלם, מספר שובר, מספר חוזה, מספר נכס. Pakid Tov reads the payment slip, opens the biller's site, enters the codes, reads what the biller's system says is due, and pays. Or, if you prefer, it fills in everything and lets you type the card and press Pay yourself.
+Every Israeli bill lives on its own website, behind its own codes: payer number, voucher number, contract number, property number. Pakid Tov reads the payment slip, opens the biller's site, enters the codes, reads what the biller's system says is due, and pays. Or, if you prefer, it fills in everything and lets you type the card and press Pay yourself.
 
 It runs on your own machine (a laptop, a server, or a Raspberry Pi on your shelf), with your own card, on the biller's own checkout page. It is not a service and never holds your money.
 
