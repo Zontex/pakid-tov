@@ -1,5 +1,9 @@
 <p align="center">
-  <img src=".github/assets/header.webp" alt="A government office: a long queue out the door, the clerk asleep on a pile of forms, and at the next window a small computer box stamping PAID on a tall stack of bills" width="100%">
+  <img src=".github/assets/header.webp" alt="A government office: a long queue out the door, the clerk asleep on a pile of forms, and at the next window a small computer box stamping PAID on a tall stack of bills" width="88%">
+</p>
+
+<p align="center">
+  <img src=".github/assets/logo.png" alt="Pakid Tov logo: a little computer clerk with glasses and a red tie, holding up a rubber stamp" width="96">
 </p>
 
 <h1 align="center">Pakid Tov</h1>
