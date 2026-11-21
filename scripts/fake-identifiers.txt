@@ -1,0 +1,5 @@
+# Fake identifiers that fixtures and tests may use. Anything else that looks
+# like a real ID number or mobile number fails CI.
+000000018   # check-digit-valid fake ID
+123456782   # check-digit-valid fake ID
+0500000000  # fake mobile

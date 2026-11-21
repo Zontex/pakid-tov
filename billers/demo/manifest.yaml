@@ -1,0 +1,23 @@
+# The demo biller: a fake water company served by `pakid demo-site`.
+# Copy this folder to add a real biller (see docs/adding-a-biller.md).
+id: demo
+name:
+  he: תאגיד הדמו
+  en: Demo Water Co.
+platform: demo
+entry: http://127.0.0.1:4555/
+# Card fields sit in an iframe on a second host, like a real payment provider,
+# so both hosts are pinned.
+domains: [127.0.0.1, localhost]
+fields:
+  payer_number:
+    label: { he: מספר משלם, en: Payer number }
+    pattern: '^\d{4,12}$'
+    scope: payee
+  voucher_number:
+    label: { he: מספר שובר, en: Voucher number }
+    pattern: '^\d{4,20}$'
+    scope: slip
+recognize:
+  keywords: [תאגיד הדמו]
+standingOrder: true

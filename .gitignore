@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+
+# Never commit real slips, receipts, ledgers or vaults.
+private/
+*.sqlite
+*.sqlite-*
+*.vault
+receipts/
+.pakid/
